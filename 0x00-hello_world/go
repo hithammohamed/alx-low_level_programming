@@ -1,3 +1,3 @@
 git add .
-git commit -m "Create a c file that prints the sizes of the variables"
+git commit -m "A script has been created that does what is required"
 git push
