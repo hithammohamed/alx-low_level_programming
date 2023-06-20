@@ -1,23 +1,27 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
+/* Resolve the required task code */
 
-/* betty style doc for function main goes there */
- int main(void)
+/* Choose a random number, then compare whether it is negative, positive, or zero */
+int main(void)
 {
-	int n;
+ int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* Try to find the positive value from the negative */
-	if (n>0)
-	{
-         printf("%d is positive\n",n);
-	}
-	else
-	{
+  if (n>0)
+    {
+      printf("%d is positive\n",n);
+    }
+    else if (n<0)
+      {
 	printf("%d is negative\n",n);
-	}
-	return (0);
+      }
+        else
+	 {
+	  printf("%d is Zero\n",n);	
+	 } 
+	   return (0);
 }

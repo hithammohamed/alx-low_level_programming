@@ -1,3 +1,3 @@
 git add .
-git commit -m "Code that detects positive and negative values has been created"
+git commit -m "Handling code errors"
 git push
