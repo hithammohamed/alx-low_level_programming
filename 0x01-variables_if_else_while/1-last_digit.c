@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *The code returns a random value and then compares that value with the given values
+ *The code assumes a random value, then compares it and prints the output
  *Return: Always 0(Success)
 */
 int main(void)
