@@ -6,7 +6,8 @@
  * 
  * Return: Always 0 (Success)
  *
- * Choose a random number, then compare whether it is negative, positive, or zero */
+ * Choose a random number, then compare whether it is negative, positive, or zero
+ */
 int main(void)
 {
         int n;
