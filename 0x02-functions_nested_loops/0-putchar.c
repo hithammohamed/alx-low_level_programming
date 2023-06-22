@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include <stdio.h> 
+
 /**
  *Task from Alx 
  *
@@ -6,8 +7,9 @@
  *
  *main - This program prints the text to be printed
  */
+
 int main(void) 
 {
-   printf("_putchar\n");
+   printf("%s \n", "_putchar");
    return (0);
 } 
