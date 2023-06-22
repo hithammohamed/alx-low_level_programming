@@ -1,13 +1,13 @@
 #include<stdio.h>
 /**
- * Task from Alx 
+ *Task from Alx 
  *
- *  Return: Always (0)
+ *Return: Always (0)
  *
- *  main - This program prints the text to be printed
+ *main - This program prints the text to be printed
  */
- int main(void) 
- {
-	printf("_putchar\n");
-	return (0);
- } 
+int main(void) 
+{
+   printf("_putchar\n");
+   return (0);
+} 
