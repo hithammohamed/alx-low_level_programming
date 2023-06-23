@@ -1,15 +1,20 @@
-#include <stdio.h> 
+#include <stdio.h>
 
 /**
- *Task from Alx 
+ * main- entry point
  *
- *Return: Always (0)
+ * Explanation: The program performs the required tasks.
  *
- *main - This program prints the text to be printed
+ * Return: Always 0 (Success)
  */
 
 int main(void) 
 {
-   printf("_putchar\n");
-   return (0);
-} 
+char str[] = "_putchar";
+int s;
+for (s = 0; s < 8; s++)
+_putchar(str[s]);
+_putchar('\n');
+
+return (0);
+}
