@@ -11,7 +11,8 @@ void print_alphabet(void)
 {
 	int words;
 
-	for (words = 'a'; words <= 'Z'; words++)
+	for (words = 'a'; words <= 'Z'; words++)	
 		_putchar(words);
+	
 	_putchar('\n');
 }
