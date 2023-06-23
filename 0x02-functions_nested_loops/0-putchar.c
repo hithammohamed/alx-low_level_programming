@@ -1,20 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main- entry point
+ * main - Enter point
+ * Description: The function is used to print the required text
  *
- * Explanation: The program performs the required tasks.
- *
- * Return: Always 0 (Success)
- */
+ * Return: Always 0 (success)
+*/
 
-int main(void) 
+int main(void)
 {
-char str[] = "_putchar";
-int s;
-for (s = 0; s < 8; s++)
-_putchar(str[s]);
-_putchar('\n');
+	char str[] = "_putchar";
+	int s;
 
-return (0);
-}
+	for (s = 0; s < 8; s++)
+		_putchar(str[s]);
+	_putchar('\n');
+
+	return (0);
+
