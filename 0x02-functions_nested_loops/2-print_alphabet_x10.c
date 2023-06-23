@@ -6,17 +6,23 @@
  *
  * Return: Always 0.
  */
-
 void print_alphabet_x10(void)
 {
-        int wordsx10;
-	int loops;
-     for (loops = 0; loops > 10; loops++)
-     {
-        for (wordsx10 = 'a'; wordsx10 <= 'Z'; wordsx10++)
-        {
-                _putchar(wordsx10);
-        }
-      _putchar('\n');
-     }
+	char ch;
+	int i;
+
+	i = 0;
+
+	while (i < 10)
+	{
+		ch = 'a';
+		while (ch <= 'z')
+		{
+			_putchar(ch);
+			ch++;
+		}
+		_putchar('\n');
+		i++;
+	}
 }
+
