@@ -1,31 +1,26 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
- * Resolve the required task code 
- * 
- * Return: Always 0 (Success)
+ * main - enter point
  *
- * Choose a random number, then compare whether it is negative, positive, or zero
- */
+ * Description: Test the number is it positive or negative or zero
+ *
+ * Return: 0 (Success)
+*/
+
 int main(void)
 {
-        int n;
+	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* Try to find the positive value from the negative */
-        if (n > 0)
-        {
-                printf("%d is positive\n", n);
-        }
-        else if (n == 0)
-        {
-	        printf("%d is Zero\n", n);
-        }
-        else
-	{
-	         printf("%d is negative\n", n);	
-	} 
-	 return (0);
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n == 0)
+		printf("%d is Zero\n", n);
+	else
+		printf("%d is negative\n", n);
+	return (0);
 }
