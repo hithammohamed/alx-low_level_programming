@@ -1,0 +1,3 @@
+git add .
+git commit -m "The code tests letters and recognizes capital letters"
+git push
