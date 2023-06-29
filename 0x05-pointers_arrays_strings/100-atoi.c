@@ -14,13 +14,13 @@ int _atoi(char *s)
 	int sing = 1;
 
 	do {
-		if (*S == '-')
-			sign *= -1;
+		if (*s == '-')
+			sing *= -1;
 		else if (*s >= '0' && *s <= '9')
 			num = (num * 10) + (*s - '0');
 		else if (num > 0)
 			break;
 	} while (*s++);
 
-	return (num * sign);
+	return (num * sing);
 }
