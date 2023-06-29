@@ -12,9 +12,10 @@
 
 int _strlen(char *s)
 {
-	int num;
+	int number;
 
-	num = _strlen(s);
+	for (number = 0; *s != '\0'; s++)
+		++number;
 
-	return (num);
+	return (number);
 }
