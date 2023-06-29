@@ -1,4 +1,4 @@
 git add .
-git commit -m "Created code that prints the given text with a newline"
+git commit -m "Created code that prints the given text in reverse"
 
 git push
