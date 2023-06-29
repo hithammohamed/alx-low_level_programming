@@ -14,7 +14,7 @@ void rev_string(char *s)
 	char str;
 
 	/*Count and memorize letters without null char*/
-	for (m = 0; s[z] != '\0'; ++m)
+	for (m = 0; s[m] != '\0'; ++m)
 		;
 
 	/*swap the string by looping to half the string*/
