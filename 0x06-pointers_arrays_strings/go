@@ -1,3 +1,3 @@
 git add .
-git commit -m "The code that copies the required texts has been generated"
+git commit -m "The code that compares the two variables has been created"
 git push
