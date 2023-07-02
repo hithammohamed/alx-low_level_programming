@@ -19,7 +19,7 @@ char *leet(char *c)
 	{
 		for (l = 0; l < sizeof(kay) / sizeof(char); l++)
 		{
-			if (*C == kay[l] || *c == kay[l] + 32)
+			if (*c == kay[l] || *c == kay[l] + 32)
 			{
 				*c = 48 + velue[l];
 			}
